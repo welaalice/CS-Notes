@@ -6,4 +6,4 @@
 - check zybook perm is correct
 
 [Practice code from Repl](https://replit.com/@welaalice/CS16-lecture1#main.cpp)
-[Looking uo things for C++] (https://cplusplus.com/) 
+[Looking uo things for C++](https://cplusplus.com/) 
