@@ -5,5 +5,5 @@
 - hmwk 1 and 2 due ==friday (30/09)==
 - check zybook perm is correct
 
-[Practice code from Repl](https://replit.com/@welaalice/CS16-lecture1#main.cpp)
-[Looking uo things for C++](https://cplusplus.com/) 
+[Practice code from Repl for lexture 1](https://replit.com/@welaalice/CS16-lecture1#main.cpp)
+[Looking up things for C++](https://cplusplus.com/) 
