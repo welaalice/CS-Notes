@@ -1,2 +1,9 @@
-# Intro notes
-just testing this out
+# CS16
+## Lecture 1 (26/09)
+
+**General notes**:
+- hmwk 1 and 2 due ==friday (30/09)==
+- check zybook perm is correct
+
+[Practice code from Repl](https://replit.com/@welaalice/CS16-lecture1#main.cpp)
+[Looking uo things for C++] (https://cplusplus.com/) 
