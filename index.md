@@ -93,6 +93,7 @@ int main(){
 [Link to other code problems from lecture](https://github.com/ucsb-cs16-f22/lectures/tree/main/lect03)
 
 **notes:**
+
 ex2: 
 -  A result in compile error as i not declared
 -  B and D are infifite loops as i is incrementing and doesn't have correct loop condition, if condidion missing, c++ assumes it is true
