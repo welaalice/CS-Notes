@@ -22,6 +22,8 @@
 - cd../ = back to home directory
 - -o = change name of executable file
 - cat = see contents of the file (eg cat greeting.txt)
+- al = shows all hidden files in folder
+- - std=c++11 = telling compliler using this version of C++
 
 **Example of code in vim editor**:
 
@@ -104,6 +106,27 @@ ex4:
 
 [Using loops to make shapes](https://replit.com/@welaalice/CS16-Lecture-3-Shapes#main.cpp) 
 
+## Lecture 4 (05/10)
+
+[Arrays](https://replit.com/@welaalice/CS16-Arrays#main.cpp)
+
+**Git and Github**
+
+- **Git**: version control system
+	- maintain
+	- collaborating
+
+- **Github**: website that hosts Git
+	- repo = repository 
+	- clone = like making copy but with connecton to online repo
+- updating repo:
+	- git status = whats going on
+	- git add .(all files)/ <file name> = staging, add new file to repo
+	- git commit = save changes to repo
+	- git commit -m "(initials-message for what has changed)"
+	- git push = links & updates files from local computer to website (push to host), if local is ahead
+	- git pull = get from github, if host is ahead
+	
 
 
 
