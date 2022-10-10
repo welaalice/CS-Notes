@@ -24,6 +24,7 @@
 - cat = see contents of the file (eg cat greeting.txt)
 - al = shows all hidden files in folder
 - - std=c++11 = telling compliler using this version of C++
+- rm = remove
 
 **Example of code in vim editor**:
 
@@ -119,17 +120,39 @@ ex4:
 - **Github**: website that hosts Git
 	- repo = repository 
 	- clone = like making copy but with connecton to online repo
-- updating repo:
-	- git status = whats going on
-	- git add .(all files)/ <file name> = staging, add new file to repo
-	- git commit = save changes to repo
-	- git commit -m "(initials-message for what has changed)"
-	- git push = links & updates files from local computer to website (push to host), if local is ahead
-	- git pull = get from github, if host is ahead
+
+[updating repos](https://docs.google.com/document/d/1raNAa8WsRndatVXdV2eU4q_jZL7eyeD0P82Jp4Ecyec/edit)
+
+## Lecture 5 (10/10)
+
+**Automating complilation - Makefiles***
+
+sample code:
+[Automating complilation](https://replit.com/@welaalice/CS16-Automating-compliation#main.cpp)
+- using make in same directory to automate
+- make new file called **MakeFile**:
+
+automation for one executable:
+```cpp
+# Makefile is given as an input make
+
+#Rules
+#targer/ output: dependency/ input
+#cmd
+#could also have flags ie: g++	-std=c++11	shapes.cpp	-o shapes -Wall(see all warnings)
+#could also add command to run at same time
+
+shapes : shapes.cpp
+	#run compulation command
+	g++	shapes.cpp	-o shapes
+
+clean:
+	rm shapes
+
+```
+
+
+
 	
-
-
-
-
 
 
