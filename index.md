@@ -151,8 +151,35 @@ clean:
 
 ```
 
+## Lecture 6 (12/10)
 
+continuation: 
+[Automating complilation](https://replit.com/@welaalice/CS16-Automating-compliation#main.cpp)
 
-	
+- Reusing code from different files to use in other programs
+- Cannot execute without main function --> get linker error
 
+Complilation --> compliling + linking
+linking: making excecutable using other libraires and files etc
+- give option to g++: g++ -c shapes.cpp(just compling and not linking)
+- gives shapes.o (just machine code version of file)
 
+header files:
+- make own header file
+- ie shapes.h
+
+**header file:** (just decleration)
+```cpp
+
+#include <iostream>
+using namespace std;
+
+string returnNstars(int n)
+string drawRect_1(int rows, int cols)
+string drawRect(int rows, int cols)
+
+```
+- including shapes.h sstill error wihtout code with declerations
+
+how to eliminate error:
+g++ drawMountain.cpp shapes.cpp -o test
