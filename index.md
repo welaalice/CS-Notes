@@ -183,3 +183,38 @@ string drawRect(int rows, int cols)
 
 how to eliminate error:
 g++ drawMountain.cpp shapes.cpp -o test
+
+
+## Lecture 7 (17/10)
+**Pointers**
+
+Pointer: A variable that contains the address of another variable
+- decleration: type* pointerName;
+- pointers only store address
+
+[Pointers](https://replit.com/@welaalice/CS16-Pointers#main.cpp)
+
+**&** - used to get address of specific variable
+
+eg:
+```cpp
+int x;
+cout << &x;
+```
+Drawing pointer diagrams:
+p --> y <box>
+
+Declaring integer to pointer:
+```cpp
+int* p; // variable p intends to store address of integer, p is pointer
+int y = 3;
+p = &y; //storing address of y as value inside p, p points to y
+cout << p; // just outputs p value
+cout << *p; // value of y outputted
+*p = 5; //changing value of y through p
+
+//int main(int argc, char const *argv[])
+// make swap variables pointers
+// dereferencing null pointers = seg fault always
+```
+
