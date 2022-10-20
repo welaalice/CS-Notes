@@ -196,25 +196,24 @@ Pointer: A variable that contains the address of another variable
 
 **&** - used to get address of specific variable
 
-eg:
-```cpp
-int x;
-cout << &x;
-```
-Drawing pointer diagrams:
-p --> y <box>
+[Pointer example (doc)](https://docs.google.com/document/d/1rpUJedeYlvomOVySiBtqyNUddU4jB6cnOhVmuU1WYdY/edit)
 
-Declaring integer to pointer:
-```cpp
-int* p; // variable p intends to store address of integer, p is pointer
-int y = 3;
-p = &y; //storing address of y as value inside p, p points to y
-cout << p; // just outputs p value
-cout << *p; // value of y outputted
-*p = 5; //changing value of y through p
+## Lecture 8 (19/10)
 
-//int main(int argc, char const *argv[])
-// make swap variables pointers
-// dereferencing null pointers = seg fault always
-```
+[Array and pointers](https://replit.com/@welaalice/CS16-Pointers-and-Arrays#main.cpp)
+- sizeof() = number of bytes
+- int - 4 bytes*
+- double = 8 bytes*
+- * on 64 byte pc
 
+
+
+
+
+
+
+
+
+
+	
+	
