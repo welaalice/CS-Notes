@@ -206,9 +206,38 @@ Pointer: A variable that contains the address of another variable
 - double = 8 bytes*
 - * on 64 byte pc
 
+## Lecture 9 (24/10)
+
+```cpp
+mat2D[i][j] = *(*(mat2D + i)+j);
+```
+
+using vectors:
+```cpp
+//declaring vector
+vector<doubles> scores = {95, 50, 100, 75};
+
+//2D vector
+vector<vector<double>> mat2D = { {10, 20}, {30, 40} , {50, 60} };
+
+//iterating thorugh 2D vector
+for (int i = 0; i < mat2D.size(); i++){ //get no of rows
+        for(int j = 0; j < mat2D[0].size(); j++){ //get no of cols
+            cout << "mat2D["<< i <<"]["<< j <<"]" << setw(3)<< mat2D[i][j] << " is at location: " << &(mat2D[i][j]) << endl;
+        }
+    }
+
+//length of vector
+int len = scores.size();
 
 
+```
+**References**:
+Reference: A reference in C++ is an alias for another variable
 
+*using & to reference*
+[Slides on references](https://drive.google.com/file/d/1_EVyuwQSee5ZFigkQtdajxwUM0eMIqwX/view)
+ auto = keyword c++ uses to figure out type of keyword depending on circumstance
 
 
 
