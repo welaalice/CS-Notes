@@ -236,10 +236,13 @@ int len = scores.size();
 Reference: A reference in C++ is an alias for another variable
 
 *using & to reference*
+
 [Slides on references](https://drive.google.com/file/d/1_EVyuwQSee5ZFigkQtdajxwUM0eMIqwX/view)
- auto = keyword c++ uses to figure out type of keyword depending on circumstance
 
+auto = keyword c++ uses to figure out type of keyword depending on circumstance
 
+--> argv[1] = *(argv + 1) //storing address
+* iterating through array using argv in main decleration
 
 
 
