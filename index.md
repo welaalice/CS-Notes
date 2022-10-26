@@ -258,7 +258,8 @@ auto = keyword c++ uses to figure out type of keyword depending on circumstance
  * Can be of different types
 
 different ways to access the struts:
-``cpp
+
+```cpp
 bool isSmarter(superhero a, superhero b){ //pass by value
     return a.intelligence > b.intelligence;
 
