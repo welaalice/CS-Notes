@@ -244,6 +244,28 @@ auto = keyword c++ uses to figure out type of keyword depending on circumstance
 --> argv[1] = *(argv + 1) //storing address
 * iterating through array using argv in main decleration
 
+## Lecture 10 (26/10)
+
+**files and structs**
+
+- ifstream = open file
+- oftream = write to file
+- ifs.close() = closing file
+
+**C++ structures**
+ * Struct = data structure composed of similar data types
+ * Access the member variables of p1 using the dot ‘.’ operator
+ * Can be of different types
+
+
+
+
+
+
+
+
+
+
 
 
 
