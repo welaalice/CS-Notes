@@ -257,8 +257,23 @@ auto = keyword c++ uses to figure out type of keyword depending on circumstance
  * Access the member variables of p1 using the dot ‘.’ operator
  * Can be of different types
 
+different ways to access the struts:
+``cpp
+bool isSmarter(superhero a, superhero b){ //pass by value
+    return a.intelligence > b.intelligence;
 
+}
 
+bool isStronger(superhero& a, superhero& b){ //by referece (alias)
+    return a.strength > b.strength;
+
+}
+
+bool isFaster(const superhero* p, const superhero* q){ //pointers
+    return p->speed > (*q).speed; //same thing , first is just short hand for second
+
+}
+```
 
 
 
