@@ -276,6 +276,27 @@ bool isFaster(const superhero* p, const superhero* q){ //pointers
 }
 ```
 
+## Lecture 11 (31/10)
+
+**Midterm review**
+
+* -o = name of executable
+* 	a.out without ^
+
+**data representation** non negative for midterm 
+- char intitialised to a number will output the ascii value
+- 0b = binary
+- 0x = hexadecimal
+- 0b1010 = 10
+- 0xa1 = 161
+- int(digit) from char returns ascii value --> interpret at int and not convert to int
+- stoi(digit) returns the actual integer //or atoi
+- n bits = 2^n bit patterns
+- ints = 4 bytes
+- hex digit = 4 bits, 8 bits = 1 byte
+- 0x10a5 to binary = 5 --> 0101, a --> 1010, 0 --> 0000, 1 --> 0001 == 0b0001000010100101 (1 at the start, 5 at the end)
+- using 4 bits
+
 
 
 
