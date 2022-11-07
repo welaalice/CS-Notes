@@ -295,10 +295,19 @@ bool isFaster(const superhero* p, const superhero* q){ //pointers
 - ints = 4 bytes
 - hex digit = 4 bits, 8 bits = 1 byte
 - 0x10a5 to binary = 5 --> 0101, a --> 1010, 0 --> 0000, 1 --> 0001 == 0b0001000010100101 (1 at the start, 5 at the end)
-- using 4 bits
+	- using 4 bits
+
+## Lecture 12 (07/11)
+
+Headerfiles, Makefiles
+* header gaurds:
+```cpp
+#ifndef SUPERHERO_H //if it is not defined in other files then
+#define SUPERHERO_H //include it, if it is then skip this
 
 
-
+#endif //close
+```
 
 
 
