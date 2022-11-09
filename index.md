@@ -309,11 +309,40 @@ Headerfiles, Makefiles
 #endif //close
 ```
 
+## Lecture 13 (09/11)
+
+```cpp
+void legion::combine_powers(){
+}
+
+legion legion1;
+legion.name; //accessing fuction from object in class/struct
+
+//inline definition
+//making a vector with 3 zeros: vector<int>(3,0);
+//this->powers = pointing to global variable
+```
+
+- Scope resolution operator = **::**
+	- kinda like 's --> saying combine powers is fuction belonging to legion
+```cpp
+class legion
+{
+   private:
+   /* code */
+   // can only be accessed by member fuctions of the class (eg. cant do legion.name)
+   
+   public:
+   /* code */
+   //member functions
+   //public data may be accessed by any code user (in main)
+
+};
+```
+- use getter to access private data , dont modify any member data
+- setter to change //these are public functions
 
 
-
-
-
-
+## Lecture 14(/11)
 	
 	
