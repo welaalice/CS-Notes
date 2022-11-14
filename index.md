@@ -322,7 +322,7 @@ legion.name; //accessing fuction from object in class/struct
 //making a vector with 3 zeros: vector<int>(3,0);
 //this->powers = pointing to global variable
 ```
-
+access specifiers: private, public
 - Scope resolution operator = **::**
 	- kinda like 's --> saying combine powers is fuction belonging to legion
 ```cpp
@@ -339,10 +339,35 @@ class legion
 
 };
 ```
-- use getter to access private data , dont modify any member data
-- setter to change //these are public functions
+- use getter to access private data , dont modify any member data, end with const, only return data by value
+- setter to change ==> these are public functions
+- constructor: called everytime new object is made, public, same name as class, no return value, without = c++ generates one with no parameters
+```cpp
+//constructor decleration
+legion();
+legion(string name);
+
+//definition
+legion::legion (string name){
+	//initialise all data members
+	name = team_name;
+	powers = vector<int>(3,0);
+}
+
+```
 
 
-## Lecture 14(/11)
+## Lecture 14(14/11)
+
+more on classes (included in lecture 13)
+**Dynamic memory**
+
+Heap vs Stack
+- stack: segment of memory managed automatically using the Last In First Out (LIFO) principle
+- heap: segment of memory anaged by the programmer
+
+
+
+
 	
 	
