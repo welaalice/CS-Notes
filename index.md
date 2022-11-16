@@ -357,7 +357,7 @@ legion::legion (string name){
 ```
 
 
-## Lecture 14(14/11)
+## Lecture 14 (14/11)
 
 more on classes (included in lecture 13)
 **Dynamic memory**
@@ -367,6 +367,70 @@ Heap vs Stack
 - heap: segment of memory anaged by the programmer
 
 
+## Lecture 15 (16/11)
+**Linked lists**
+- vector type with being dynamically resizeable
+
+```cpp
+//linkedlist.h
+
+struct Node{
+	int data;
+	Node* next;
+};
+
+```
+
+
+```cpp
+//linkedlist.cpp
+#include <iostream>
+#include <vector>
+#include "linkedlist.h"
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	Node n {5, nullptr}; //node on stack
+	node *p = new Node {50, nullptr}; //node on heap
+	
+	cout << n.data << ", " << n.next << endl; // accessing data on stack
+	cout << p->data << ", " << p->next << endl; // accessing data on heap
+    
+    return 0;
+}
+```
+Adding nodes to empty list:
+```cpp
+//function
+
+Node* push_front (Node* h, string value){
+
+    if (h == nullptr){
+	Node* p = new Node {value, nullptr};//on heap because want list to exist after function
+	return p;
+     } else{
+     	Node* p = new Node {value, nullptr}; //new node to go front
+	p->next = h; //new node next assigned with existing node's address 
+	return p;
+     }
+
+}//end function
+
+```
+Since basically dong samae thng then shrthand of code:
+
+```cpp
+//function
+
+Node* push_front (Node* h, string value){
+
+Node* p = new Node {value, nullptr};
+    if (h){ // if h false = nullptr
+	p->next = h;
+     } 
+     return p;
+}//end function
 
 
 	
